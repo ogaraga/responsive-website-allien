@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    // position: relative;
+    overflow: hidden;
+
+.pos{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    // position: absolute;
+    width: 100%;
+    height: 10vh;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    .logo{
+        color: black;
+        text-decoration: none;
+        font-size: 25px;
+        // text-align: center;
+        align-self: center;
+    }
+
+    .pox{
+        margin-right: 50px;
+        align-self: center;
+
+        .pages{
+            text-decoration: none;
+            padding-left: 15px;
+            color: black;
+            text-align: center;
+            font-size: 20px;
+
+            @media screen and (max-width: 576px){
+                width: auto;
+                display: none;
+            }
+        }
+
+        .btn{
+            border: none;
+            background-color: rgba(50, 205, 120, 0.699);
+            font-size: 20px;
+            color: white;
+            padding: 10px;
+
+        }
+        
+    }
+}
+    main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+        margin-top: 90px;
+        @media screen and (max-width: 576px){
+            width: auto;
+            display: grid;
+        }
+
+        .main-body{
+            margin-left: 150px;
+            line-height: 30px;
+            @media screen and (max-width: 576px){
+                width: auto;
+                display: grid;
+                // margin-right: 50px;
+            }
+
+            
+            h1{
+                color: rgba(50, 205, 120, 0.699);
+                font-weight: bolder;
+                font-size: 30px;
+            }
+
+            h2{
+                font-size: 25px;
+            }
+
+            p{
+                font-weight: 500;
+            }
+            .btn{
+                border: none;
+            background-color: rgba(50, 205, 120, 0.699);
+            font-size: 20px;
+            color: white;
+            padding: 10px;
+            @media screen and (max-width: 576px){
+                width: 100px;
+            }
+
+            }
+        }
+    }
+
+    .main-body2{
+        margin-left: 190px;
+        margin-right: 100px;
+        @media screen and (max-width: 576px){
+            display: grid;
+            margin-top: 40px;
+        }
+        
+    .image{
+        margin-right: 10px;
+        @media screen and (max-width: 576px){
+            width: auto;
+            padding-right: 20px;
+            display: grid;
+        }
+    }
+}
+}
